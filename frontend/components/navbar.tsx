@@ -14,8 +14,8 @@ export default function Navbar() {
 
 <nav className="flex gap-4">
   <Link className="hover:text-blue-700" href="/">Нүүр</Link>
-  <Link className="hover:text-blue-700" href="/about">Зарууд</Link>
-  <Link className="hover:text-blue-700" href="/contact">Миний хүсэлт</Link>
+  <Link className="hover:text-blue-700" href="/zaruud">Зарууд</Link>
+  <Link className="hover:text-blue-700" href="/request">Миний хүсэлт</Link>
   <Link className="hover:text-blue-700" href="/profile">Профайл</Link>
   <Link
     href="/login"

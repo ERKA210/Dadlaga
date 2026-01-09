@@ -1,6 +1,5 @@
 import Navbar from "@/components/navbar";
 import Page1  from "@/components/page1";
-import Page2 from "@/components/page2";
 import Page3 from "@/components/page3";
 
 interface User {
@@ -27,7 +26,6 @@ export default async function Home() {
     <>
       <Navbar/>
       <Page1/>
-      <Page2/>
       <Page3/>
     </>
   );
