@@ -65,9 +65,9 @@ export default function AuthModal({ onClose }: { onClose: () => void }) {
             />
           </label>
 
-          <button className="w-full bg-blue-700 text-white py-3 rounded font-semibold mb-4 hover:bg-red-800 transition">
+          <Link href="/" className="w-full bg-blue-700 text-white py-3 rounded font-semibold mb-4 hover:bg-red-800 transition">
             Нэвтрэх
-          </button> 
+          </Link>
         </>
       ) : (
         <>
