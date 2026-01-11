@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useState } from "react";
 
 export default function AuthModal({ onClose }: { onClose: () => void }) {
@@ -100,9 +101,9 @@ export default function AuthModal({ onClose }: { onClose: () => void }) {
             />
           </label>
 
-          <button className="w-full bg-blue-700 text-white py-3 rounded font-semibold mb-4 hover:bg-green-700 transition">
+          <Link href="/" className="w-full bg-blue-700 text-white py-3 rounded font-semibold mb-4 hover:bg-green-700 transition">
             Бүртгүүлэх
-          </button>
+          </Link>
         </>
       )}
     </div>
