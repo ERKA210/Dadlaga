@@ -65,7 +65,7 @@ export default function AuthModal({ onClose }: { onClose: () => void }) {
             />
           </label>
 
-          <Link href="/" className="w-full bg-blue-700 text-white py-3 rounded font-semibold mb-4 hover:bg-red-800 transition">
+          <Link href="/" className="w-full bg-blue-700 text-white py-3 px-2 rounded font-semibold mb-4 hover:bg-red-800 transition">
             Нэвтрэх
           </Link>
         </>
@@ -101,7 +101,7 @@ export default function AuthModal({ onClose }: { onClose: () => void }) {
             />
           </label>
 
-          <Link href="/" className="w-full bg-blue-700 text-white py-3 rounded font-semibold mb-4 hover:bg-green-700 transition">
+          <Link href="/" className="w-full bg-blue-700 text-white py-3 px-2 rounded font-semibold mb-4 hover:bg-green-700 transition">
             Бүртгүүлэх
           </Link>
         </>
