@@ -16,7 +16,6 @@ export default function Navbar() {
   <Link className="hover:text-blue-700" href="/">Нүүр</Link>
   <Link className="hover:text-blue-700" href="/zaruud">Зарууд</Link>
   <Link className="hover:text-blue-700" href="/request">Миний хүсэлт</Link>
-  <Link className="hover:text-blue-700" href="/profile">Профайл</Link>
   <Link
     href="/login"
     className="bg-blue-700 text-white px-3 py-1 rounded hover:bg-white hover:text-blue-700"
